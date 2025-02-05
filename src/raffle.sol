@@ -154,7 +154,6 @@ contract Raffle is VRFConsumerBaseV2Plus, AutomationCompatibleInterface {
                 )
             })
         );
-        // Quiz... is this redundant?
         emit RequestedRaffleWinner(requestId);
     }
 
